@@ -1,0 +1,314 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+html {
+    font-family: 'open_sansregular';
+    background: url(ExtraPics/bo.jpg) no-repeat;
+
+  background-size: cover;
+  /*background-position: 0% 10%;*/
+
+   
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+    position:absolute;
+    height:610px
+    
+   
+   }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+/*#links {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17vw;
+    display: flex;
+    min-width: 7em;
+
+    
+}*/
+
+/*.icon {
+    width: 100%;
+}*/
+/*.iconb {
+    width: 200%;
+
+}*/
+
+/*.icon a {
+    width: 100%;
+    flex: 1;
+}
+.icon img {
+    width: 80%;
+}
+
+.logo img
+{
+    width: 600%
+    height: auto;
+}*/
+
+
+
+@media screen and (min-width:500px) {
+
+
+    #ProjectHead{
+        font-family: 'Century Gothic',sans-serif;
+        color: black;
+        font-size: 2.8vw;
+        text-align: center;
+        font-weight: none;
+        padding: 3.5vw 0em 3.5vw 0em;
+        text-transform: uppercase;
+        letter-spacing: .14em;
+        padding-top: 10px;
+
+    }
+
+
+    #ProjectHeading {
+         font-family: 'Century Gothic',sans-serif;
+        color: black;
+        font-size: 2.8vw;
+        text-align: center;
+        font-weight: none;
+        padding: 2.0vw 0em 2.0vw 0em;
+        text-transform: uppercase;
+        letter-spacing: .14em;
+
+        border-style: solid;
+        border-width: 5px;
+    }
+/*
+    #ProjectHeading:hover {
+        padding: 3.0vw 0em 3.0vw 0em;
+    }
+*/
+
+    .Projects {
+        /* Box properties */
+        padding: 0em 5vw 30vh 5vw; /* top right bottom left */
+       
+        /* Text properties */
+        color: black;
+        font-size: 2.5vw;
+          font-family: Palatino,Book Antiqua,Georgia,serif; 
+}
+    }
+
+    .ProjectTitle {
+        font-family: 'Century Gothic',sans-serif;
+        color: black;
+        font-weight: 600;
+        font-size: 2.5vw;
+        text-align: left;
+        font-weight: none;
+        padding: 1.4vw 0em 0.2vw 0em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+     /*    border-style: solid;
+    border-width: 5px;*/
+    }
+
+    /*.ProjectTitle:hover {
+         font-size: 2.9vw;
+        transition: ease 0.3s;
+    
+   
+    }*/
+
+     .ProjectTitle1 {
+        font-family: 'Century Gothic',sans-serif;
+        color: black;
+        font-size: 2.4vw;
+        text-align: left;
+        font-weight: 600;
+        font-weight: none;
+        padding: 1.6vw 0em 1vw 0em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+     /*    border-style: solid;
+    border-width: 5px;*/
+    }
+
+    .Title{
+        font-family: 'Century Gothic',sans-serif;
+        color: black;
+        font-size: 1.3vw;
+        text-align: left;
+        font-weight: none;
+        text-indent: 1.9%;
+        padding: 0vw 0em 2vw 0em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-style: italic;
+
+    }
+
+   
+
+    .Date {
+        float: right;
+        padding-right: 2.0vw;
+        font-weight: normal;
+        font-style: italic;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 1.5vw;
+    }
+
+    .ProjectInfo {
+        font-size: 2vw;
+        padding-bottom: 3vw;
+    }
+
+
+    /* PROJECT LINKS */
+    .ProjectInfo a:link {
+        color: gray; 
+        text-decoration: none;
+        font-family: "open_sansregular";
+    }
+
+    .ProjectInfo a:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    .ProjectInfo a:hover {
+        transition: ease 0.3s;
+        color: #4357AD;
+        font-weight: bold;
+    }
+
+    #ATSImage img {
+        width: 25vw;
+        height: auto;
+        padding: 1vw 3vw 0vw 3vw;
+    }
+
+    #ATSImage img:hover {
+        transform: scale(1.05);
+        filter: brightness(120%);
+        transition: ease 0.3s;  
+    }
+
+    #PongImage img {
+        width: 25vw;
+        height: auto;
+        padding: 1vw 3vw 0vw 3vw;
+    }
+
+    #PongImage img:hover {
+        transform: scale(1.05);
+        filter: brightness(120%);
+        transition: ease 0.3s;  
+    }
+
+
+/*
+     border: 4px solid #23B5D3;*/
+
+
+
+.navbar {
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: 1fr;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 50vw;
+        height: 6.6vw;
+        max-height: 80px;
+        max-width: 400px;
+         min-height: 65px;
+        min-width: 330px;
+
+        background-color: #333;
+       
+        border: 3px solid white;
+        border-bottom: none;
+        border-radius: 10px;
+
+
+}
+
+
+    .navbar div:hover {
+        transform: scale(1.2);
+        filter: brightness(70%);
+        transition: ease 0.3s;
+    }
+
+
+    /* LOGO CENTERING AND SIZING */
+    .logo {
+        width: 100%;
+        vertical-align: middle;
+        transition-duration: .5s;
+        height: auto;
+    }
+
+    .logo: a {
+        width: auto;
+        height: stretch;
+    }
+
+    .resume img {
+        width: 40%;
+         filter: invert(100%);
+        height: stretch;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .linkedin img {
+        width: 40%;
+        height: stretch;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .home img {
+        filter: invert(100%);
+        width: 40%;
+        height: stretch;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+
+    }
+
+    .nextButton img {
+       /* filter: invert(100%);*/
+        width: 40%;
+        height: stretch;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+
+ 
+
+
+
+

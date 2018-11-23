@@ -1,0 +1,222 @@
+
+
+
+
+/*
+
+.halfCircleRight{
+     height:90px;
+     width:45px;
+     border-radius: 0 100px 100px 0;
+     background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+     top: 55%;
+     left: 85.392%;
+     transform: translate(-50%, -50%);
+
+}
+
+.halfCircleLeft{
+     height:90px;
+     width:45px;
+     border-radius: 100px 0 0 100px;
+     background: rgba(0, 0, 0, 0.5);
+     position: absolute;
+     top: 55%;
+     right: -2.1%;
+     transform: translate(-50%, -50%);
+}
+
+.halfCircleLeft a{
+     position: absolute;
+     top: 49%;
+     right: -15%;
+     transform: translate(-50%, -50%);
+  
+}
+
+.halfCircleRight a{
+     
+     position: absolute;
+     top: 48%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+
+}
+*/
+
+
+
+/*.halfCircleRight:hover {
+         
+        background: rgba(0, 0, 0, 0.2);
+        transition: ease 0.4s;  
+    
+}
+
+ .halfCircleLeft:hover {
+         font-size: 2.9vw;
+        transition: ease 0.3s;
+    
+}*/
+
+
+.rightRect{
+     position: absolute;
+     top: 35%;
+     right: 4%;
+     width: 85px;
+    height: 235px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+
+.more{
+    margin-top: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.more img:hover, .rightArrow img:hover, .graph img:hover{
+   filter: invert(40%);
+  transition: 0.8s;
+}
+
+.rightArrow{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+
+.graph{
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    filter: invert(100%);
+
+}
+
+.leftRect{
+     position: absolute;
+     top: 35%;
+     left: 4%;
+     width: 85px;
+    height: 235px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.spot img:hover, .leftArrow img:hover, .camera img:hover{
+    filter: invert(40%);
+  transition: 0.8s;
+}
+
+
+.spot{
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+
+.leftArrow{
+    margin-top: 19%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.camera{
+    margin-top: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(ExtraPics/image.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    
+    position:absolute;
+    height:610px
+}
+
+
+
+
+.box{
+  width: 64%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 22px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 265px;
+  height: 255px;
+}
+
+
+.box .NameHead{
+  font-size: 45px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  
+  
+}
+
+
+
+.box p{
+  line-height: 1.6;
+  padding-right: 23px;
+  padding-left: 23px;
+    text-align: left;
+   font-size: 14.7px;
+  letter-spacing: 2.5px;
+  font-weight: 100;
+  
+}
+/*ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}*/
