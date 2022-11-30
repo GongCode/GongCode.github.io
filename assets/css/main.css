@@ -2603,7 +2603,14 @@ input, select, textarea {
 		}
 	}
 
-	@media screen and (max-width: 410px) {
+	@media screen and (max-width: 450px) {
+
+		.inner1 .button{
+			font-size: 0.65em;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
 
 		.inner1 .button{
 			font-size: 0.6em;
@@ -4253,13 +4260,10 @@ input, select, textarea {
 
 @media screen and (max-width: 510px) {
 	.ccm{
-	
-		
 		font-size: 0.7em;
 		margin-left: 0.1em;
 		margin-right: 0.1em;
 	}
-	
 
 
 }
