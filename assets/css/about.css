@@ -4080,6 +4080,24 @@ input, select, textarea {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 800px) {
+	.bio{
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+		padding-right: 2.5em;
+		padding-left: 2.5em;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.bio{
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+	}
+}
+
 
 
 /* * {
@@ -4715,9 +4733,9 @@ body { padding: 1rem; } */
 	.ccm{
 	
 		
-		font-size: 0.7em;
-		margin-left: 0.6em;
-		margin-right: 0.6em;
+		font-size: 0.68em;
+		margin-left: 0.2em;
+		margin-right: 0.2em;
 	}
 	
 
@@ -4728,9 +4746,22 @@ body { padding: 1rem; } */
 	.ccm{
 	
 		
-		font-size: 0.7em;
+		font-size: 0.59em;
 		margin-left: 0.1em;
 		margin-right: 0.1em;
+	}
+	
+
+
+}
+
+@media screen and (max-width: 400px) {
+	.ccm{
+	
+		
+		font-size: 0.53em;
+		margin-left: 0em;
+		margin-right: 0em;
 	}
 	
 
