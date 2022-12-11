@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -4443,6 +4437,17 @@ body { padding: 1rem; } */
 
 }
 
+@media screen and (max-width: 650px) {
+	.errorcode {
+		color: #ffffff;
+		font-weight: 500;
+		margin: 0.3em 0 0 0;
+		font-size: 4.2em;
+		line-height: 1.1;
+	
+	}
+}
+
 .errormes {
 	color: #ffffff;
 	font-weight: 500;
@@ -4453,6 +4458,17 @@ body { padding: 1rem; } */
 
 }
 
+@media screen and (max-width: 650px) {
+	.errormes {
+		color: #ffffff;
+		font-weight: 500;
+		margin: 0.1em 0 0.2em 0;
+		font-size: 1.9em;
+		line-height: 1.1;
+	
+	}
+}
+
 .errorinfo {
 	color: #ffffff;
 	font-weight: 500;
@@ -4460,9 +4476,27 @@ body { padding: 1rem; } */
 	font-size: 1.4em;
 }
 
-.img34 {
+@media screen and (max-width: 650px) {
+	.errorinfo {
+		color: #ffffff;
+		font-weight: 500;
+		margin: 0.3em 0 0.65em 0;
+		font-size: 1.2em;
+	}
+}
+
+.errorimg {
 	display: block;
 	margin: auto;
-	width: 24%;
+	width: 25%;
     height: auto;
+}
+
+@media screen and (max-width: 650px) {
+	.errorimg {
+		display: block;
+		margin: auto;
+		width: 35%;
+		height: auto;
+	}
 }
