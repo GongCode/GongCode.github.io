@@ -94,8 +94,8 @@ input, select, textarea {
 	}
 
 	body {
-		/* background: #242943; */
-        background: #32395d;
+		background: #242943;
+        /* background: #32395d; */
 
         
 	}
@@ -4348,8 +4348,6 @@ body { padding: 1rem; } */
 		margin-left: 1.6em;
 		margin-right: 1.6em;
 	}
-	
-
 
 }
 @media screen and (max-width: 680px) {
@@ -4360,8 +4358,6 @@ body { padding: 1rem; } */
 		margin-left: 1.3em;
 		margin-right: 1.3em;
 	}
-	
-
 
 }
 
@@ -4373,8 +4369,6 @@ body { padding: 1rem; } */
 		margin-left: 0.2em;
 		margin-right: 0.2em;
 	}
-	
-
 
 }
 
@@ -4386,8 +4380,6 @@ body { padding: 1rem; } */
 		margin-left: 0.05em;
 		margin-right: 0.05em;
 	}
-	
-
 
 }
 
@@ -4399,39 +4391,35 @@ body { padding: 1rem; } */
 		margin-left: 0em;
 		margin-right: 0em;
 	}
-	
-
 
 }
 
 
 .inner1{
-	
-		padding: 3.5em 0 2.3em 0 ;
-		margin: 0 auto;
-		width: calc(100% - 6em);
-
+	padding: 3.5em 0 2.3em 0 ;
+	margin: 0 auto;
+	width: calc(100% - 6em);
 }
 
 
 @media screen and (max-width: 736px) {
-
 	.inner1 {
 		padding: 2.5em 0 1.3em 0 ;
 		width: calc(100% - 2em);
 	}
-
 }
 
 
 .notfound {
 	text-align: center;
+	background: #32395d;
+
 }
 
 .errorcode {
 	color: #ffffff;
 	font-weight: 500;
-	margin: 0.35em 0 0 0;
+	padding: 0.35em 0 0 0;
 	font-size: 5.2em;
 	line-height: 1.1;
 
@@ -4441,7 +4429,7 @@ body { padding: 1rem; } */
 	.errorcode {
 		color: #ffffff;
 		font-weight: 500;
-		margin: 0.3em 0 0 0;
+		padding: 0.3em 0 0 0;
 		font-size: 4.2em;
 		line-height: 1.1;
 	
@@ -4472,7 +4460,7 @@ body { padding: 1rem; } */
 .errorinfo {
 	color: #ffffff;
 	font-weight: 500;
-	margin: 0.5em 0 2.4em 0;
+	padding: 0.5em 0 2.6em 0;
 	font-size: 1.4em;
 }
 
@@ -4480,7 +4468,7 @@ body { padding: 1rem; } */
 	.errorinfo {
 		color: #ffffff;
 		font-weight: 500;
-		margin: 0.3em 0 2.1em 0;
+		padding: 0.3em 0 2.4em 0;
 		font-size: 1.2em;
 	}
 }
