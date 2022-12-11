@@ -95,7 +95,7 @@ input, select, textarea {
 
 	body {
 		/* background: #242943; */
-        background: #2d3354;
+        background: #32395d;
 
         
 	}
@@ -4432,7 +4432,7 @@ body { padding: 1rem; } */
 	color: #ffffff;
 	font-weight: 500;
 	margin: 0.35em 0 0 0;
-	font-size: 5.4em;
+	font-size: 5.2em;
 	line-height: 1.1;
 
 }
@@ -4451,7 +4451,7 @@ body { padding: 1rem; } */
 .errormes {
 	color: #ffffff;
 	font-weight: 500;
-	margin: 0.2em 0 0.2em 0;
+	margin: 0.1em 0 0.2em 0;
 	font-size: 2.4em;
 	line-height: 1.1;
 
@@ -4472,7 +4472,7 @@ body { padding: 1rem; } */
 .errorinfo {
 	color: #ffffff;
 	font-weight: 500;
-	margin: 0.5em 0 0.65em 0;
+	margin: 0.5em 0 2.4em 0;
 	font-size: 1.4em;
 }
 
@@ -4480,7 +4480,7 @@ body { padding: 1rem; } */
 	.errorinfo {
 		color: #ffffff;
 		font-weight: 500;
-		margin: 0.3em 0 0.65em 0;
+		margin: 0.3em 0 2.1em 0;
 		font-size: 1.2em;
 	}
 }
@@ -4488,7 +4488,7 @@ body { padding: 1rem; } */
 .errorimg {
 	display: block;
 	margin: auto;
-	width: 25%;
+	width: 26%;
     height: auto;
 }
 
@@ -4499,4 +4499,8 @@ body { padding: 1rem; } */
 		width: 35%;
 		height: auto;
 	}
+}
+
+#footer{
+	background: #242943;
 }
