@@ -4794,6 +4794,12 @@ body { padding: 1rem; } */
     position: absolute;
     left: 50%;
     margin-left: -1px;
-    
 
   }
+
+@media screen and (max-width: 736px) {
+	.vl1 {
+		height: 2.5em;
+	}
+
+}
