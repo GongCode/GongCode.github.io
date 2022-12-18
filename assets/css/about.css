@@ -4166,7 +4166,7 @@ input, select, textarea {
 
 @keyframes cs {
     to {
-        width: 53%;
+        width: 59%;
     }
 }
 
@@ -4176,7 +4176,7 @@ input, select, textarea {
 
 @keyframes java {
     to {
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -4186,7 +4186,7 @@ input, select, textarea {
 
 @keyframes sql {
     to {
-        width: 71%;
+        width: 72%;
     }
 }
 
@@ -4197,7 +4197,7 @@ input, select, textarea {
 
 @keyframes cpp {
     to {
-        width: 75%;
+        width: 77%;
     }
 }
 
@@ -4207,7 +4207,7 @@ input, select, textarea {
 
 @keyframes c {
     to {
-        width: 58%;
+        width: 64%;
     }
 }
 
@@ -4257,7 +4257,7 @@ input, select, textarea {
 
 @keyframes unity {
     to {
-        width: 56%;
+        width: 53%;
     }
 }
 
@@ -4267,17 +4267,17 @@ input, select, textarea {
 
 @keyframes psql {
     to {
-        width: 79%;
+        width: 75%;
     }
 }
 
-.container li.cuda:after {
-    animation-name: cuda;
+.container li.graphql:after {
+    animation-name: graphql;
 }
 
-@keyframes cuda {
+@keyframes graphql {
     to {
-        width: 63%;
+        width: 72%;
     }
 }
 
@@ -4287,7 +4287,7 @@ input, select, textarea {
 
 @keyframes db {
     to {
-        width: 72%;
+        width: 61%;
     }
 }
 
@@ -4297,7 +4297,7 @@ input, select, textarea {
 
 @keyframes node {
     to {
-        width: 69%;
+        width: 71%;
     }
 }
 
