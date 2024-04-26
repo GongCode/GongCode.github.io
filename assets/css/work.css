@@ -2263,7 +2263,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1.5em;
+		padding-left: 1em;
 	}
 
 		ul li {
@@ -4046,7 +4046,7 @@ input, select, textarea {
   margin-bottom: 2.5em;
   position: relative;
   /* max-width: 46em; */
-  max-width: 56em;
+  max-width: 55em;
 }
 .timeline:before {
   background-color: black;
@@ -4056,7 +4056,7 @@ input, select, textarea {
   position: absolute;
   top: 0;
   /* left: 2.5em; */
-  left: 3.05em;
+  left: 2.6em;
   width: 2px;
   height: 100%;
   
@@ -4080,30 +4080,15 @@ input, select, textarea {
 
 .timeline-event-copy {
   padding: 2em;
-  padding-right: 1.5em;
   position: relative;
   top: -1.875em;
   left: 4em;
   width: 80%;
 }
 
-.timeline-event-copy1 {
-	padding: 2em;
-	padding-right: 1.7em;
-	position: relative;
-	top: -1.875em;
-	left: 4em;
-	width: 80%;
-  }
-
 @media screen and (max-width: 700px) {
 
 	.timeline-event-copy{
-		padding-left: 0.8em;
-		padding-right: 1.2em;
-	}
-
-	.timeline-event-copy1{
 		padding-left: 0.8em;
 		padding-right: 1.2em;
 	}
@@ -4112,11 +4097,6 @@ input, select, textarea {
 @media screen and (max-width: 600px) {
 
 	.timeline-event-copy{
-		padding-left: 0.2em;
-		padding-right: 0.7em;
-	}
-
-	.timeline-event-copy1{
 		padding-left: 0.2em;
 		padding-right: 0.7em;
 	}
@@ -4136,38 +4116,15 @@ input, select, textarea {
    margin-bottom: 0em;
    font-weight: 500;
 }
-
-.timeline-event-copy1 h3 {
-	font-size: 2em;
-	color: black;
-	 border-bottom: 3px solid black;
-	 margin-bottom: 0em;
-	 font-weight: 500;
-  }
-
 .timeline-event-copy h4 {
-  font-size: 1.21em;
+  font-size: 1.2em;
   margin-bottom: 1.2em;
   color: black;
   
 }
-
-.timeline-event-copy1 h4 {
-	font-size: 1.21em;
-	margin-bottom: 1.2em;
-	color: black;
-	
-  }
-
 .timeline-event-copy strong {
   font-weight: 700;
 }
-
-.timeline-event-copy1 strong {
-	font-weight: 700;
-  }
-
-
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
   /* padding-bottom: 1.2em; */
   margin-bottom: 1.1em;
@@ -4175,20 +4132,9 @@ input, select, textarea {
   font-weight: 500;
 }
 
-.timeline-event-copy1 p:not(.timeline-event-thumbnail) {
-	margin-bottom: 1.1em;
-	font-size: 1em;
-	font-weight: 500;
-  }
-
 @media screen and (max-width: 520px) {
 	.timeline-event-copy p:not(.timeline-event-thumbnail) {
 		/* padding-bottom: 1.2em; */
-		margin-bottom: 1em;
-		font-size: 0.9em;
-	  }
-
-	  .timeline-event-copy1 p:not(.timeline-event-thumbnail) {
 		margin-bottom: 1em;
 		font-size: 0.9em;
 	  }
