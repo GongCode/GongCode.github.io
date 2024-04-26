@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -4166,7 +4160,7 @@ input, select, textarea {
 
 @keyframes cs {
     to {
-        width: 61%;
+        width: 58%;
     }
 }
 
@@ -4176,7 +4170,7 @@ input, select, textarea {
 
 @keyframes java {
     to {
-        width: 53%;
+        width: 44%;
     }
 }
 
@@ -4186,7 +4180,7 @@ input, select, textarea {
 
 @keyframes sql {
     to {
-        width: 72%;
+        width: 76%;
     }
 }
 
@@ -4197,7 +4191,7 @@ input, select, textarea {
 
 @keyframes cpp {
     to {
-        width: 77%;
+        width: 76%;
     }
 }
 
@@ -4207,7 +4201,7 @@ input, select, textarea {
 
 @keyframes c {
     to {
-        width: 65%;
+        width: 59%;
     }
 }
 
@@ -4217,7 +4211,7 @@ input, select, textarea {
 
 @keyframes python {
     to {
-        width: 84%;
+        width: 89%;
     }
 }
 
@@ -4227,7 +4221,7 @@ input, select, textarea {
 
 @keyframes js {
     to {
-        width: 82%;
+        width: 84%;
     }
 }
 
@@ -4237,7 +4231,7 @@ input, select, textarea {
 
 @keyframes git {
     to {
-        width: 83%;
+        width: 85%;
     }
 }
 
@@ -4247,7 +4241,7 @@ input, select, textarea {
 
 @keyframes react {
     to {
-        width: 82%;
+        width: 81%;
     }
 }
 
@@ -4257,7 +4251,7 @@ input, select, textarea {
 
 @keyframes unity {
     to {
-        width: 53%;
+        width: 42%;
     }
 }
 
@@ -4267,7 +4261,7 @@ input, select, textarea {
 
 @keyframes psql {
     to {
-        width: 75%;
+        width: 78%;
     }
 }
 
@@ -4277,7 +4271,7 @@ input, select, textarea {
 
 @keyframes graphql {
     to {
-        width: 72%;
+        width: 62%;
     }
 }
 
@@ -4287,7 +4281,7 @@ input, select, textarea {
 
 @keyframes db {
     to {
-        width: 61%;
+        width: 51%;
     }
 }
 
@@ -4297,7 +4291,27 @@ input, select, textarea {
 
 @keyframes node {
     to {
-        width: 71%;
+        width: 68%;
+    }
+}
+
+.container li.dj:after {
+    animation-name: dj;
+}
+
+@keyframes dj {
+    to {
+        width: 72%;
+    }
+}
+
+.container li.swift:after {
+    animation-name: swift;
+}
+
+@keyframes swift {
+    to {
+        width: 55%;
     }
 }
 
@@ -4312,7 +4326,7 @@ body { padding: 1rem; } */
   /* background-color: brown; */
   color: white;
   /* padding: 1rem; */
-  height: 36rem;
+  height: 40rem;
   border: solid 1px rgba(212, 212, 255, 0.1);
   border-top: 0;
   /* border-left: 0; */
