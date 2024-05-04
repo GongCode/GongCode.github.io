@@ -130,7 +130,15 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13.2pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1000px) {
+
+			body, input, select, textarea {
+				font-size: 12.3pt;
 			}
 
 		}
@@ -4227,25 +4235,50 @@ input, select, textarea {
 	
 	
 	border: solid 1px #9bf1ff;;
-	border-radius: 35px 180px 35px 180px;
+	border-radius: 50px 180px 180px 50px;
 	/* border-radius: 35px 180px 180px 35px; */
 	/* margin-right: 75%; */
 	padding: 0.35em;
 	/* padding-left: 0.3em; */
-	padding-right: 1.6em;
-	padding-left: 1.4em;
+	padding-right: 1.52em;
+	padding-left: 1.03em;
+	margin-left: 0.271em;
+	transition: all 0.4s ease-in-out;
+
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 	.tt span {
-		padding-right: 1.4em;
-		padding-left: 1.25em;
+		font-weight: 700;
+		font-size: 1.52em;
+
 
 	}
 
 }
 
-.tt span:hover {
+@media screen and (max-width: 560px) {
+	.tt span {
+		font-weight: 700;
+		font-size: 1.45em;
+
+
+	}
+
+}
+
+@media screen and (max-width: 430px) {
+	.tt span {
+		padding-right: 1.3em;
+		padding-left: 1em;
+		transition: all 0.4s ease-in-out;
+
+
+	}
+
+}
+
+/* .tt span:hover {
 	background-color: white;
 	border: solid 1px white;
 	-moz-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -4253,13 +4286,21 @@ input, select, textarea {
 	-ms-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 	padding-right: 10em;
-	/* margin-right: 20em; */
+} */
 
+.inner:hover > .tt span {
+	background-color: white;
+	border: solid 1px white;
+	-moz-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+	-ms-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+	padding-right: 7.2em;
 }
 
 @media screen and (max-width: 1280px) {
-	.tt span:hover {
-		padding-right: 8em;
+	.inner:hover > .tt span {
+		padding-right: 5.7em;
 
 	}
 
@@ -4267,24 +4308,24 @@ input, select, textarea {
 
 
 @media screen and (max-width: 980px) {
-	.tt span:hover {
-		padding-right: 5.5em;
+	.inner:hover > .tt span {
+		padding-right: 5em;
 
 	}
 
 }
 
 @media screen and (max-width: 600px) {
-	.tt span:hover {
-		padding-right: 1.6em;
+	.inner:hover > .tt span {
+		padding-right: 3.3em;
 
 	}
 
 }
 
 @media screen and (max-width: 400px) {
-	.tt span:hover {
-		padding-right: 1.4em;
+	.inner:hover > .tt span {
+		padding-right: 2.2em;
 
 	}
 
@@ -4294,16 +4335,16 @@ input, select, textarea {
 
 .inner p:not(.test){
 	padding-right: 1.9em;
-	padding-left: 2.1em;
+	padding-left: 2.11em;
 	font-size: 1.1em;
 	margin: 0 0 1.3em 0;
 }
 
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
-		padding-right: 0.4em;
-		padding-left: 2.1em;
-		font-size: 1em;
+		padding-right: 0.55em;
+		padding-left: 1.95em;
+		font-size: 1.03em;
 	}
 
 }
