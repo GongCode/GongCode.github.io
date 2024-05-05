@@ -2312,7 +2312,7 @@ input, select, textarea {
 		@media screen and (max-width: 560px) {
 
 			ul.actions li {
-				padding: 0 0 0 0.452em;
+				padding: 0 0 0 0.455em;
 			}
 
 		}
@@ -4372,7 +4372,7 @@ input, select, textarea {
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
 		padding-right: 0.56em;
-		padding-left: 1.74em;
+		padding-left: 1.745em;
 		font-size: 1em;
 		margin: 0 0 1.235em 0;
 	}
