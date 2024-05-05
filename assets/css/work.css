@@ -4040,6 +4040,12 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 560px) {
+	.tt1 {
+		margin-left: -0.11em;
+	}
+}
+
 /* Styling */
 .timeline {
   margin: 4em auto;
@@ -4094,10 +4100,10 @@ input, select, textarea {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 560px) {
 
 	.timeline-event-copy{
-		padding-left: 0.2em;
+		padding-left: 0em;
 		padding-right: 0.7em;
 	}
 }
