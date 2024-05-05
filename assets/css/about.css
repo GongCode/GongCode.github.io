@@ -4085,12 +4085,12 @@ input, select, textarea {
 
 @media screen and (max-width: 500px) {
 	.bio{
-		margin-left: 0.07em;
-		margin-right: 0.07em;
+		margin-left: 0.04em;
+		margin-right: 0.04em;
 		/* margin-left: 0.36em;
 		margin-right: 0.36em; */
-		padding-right: 0.52em;
-		padding-left: 0.52em;
+		padding-right: 0.51em;
+		padding-left: 0.51em;
 	}
 }
 
