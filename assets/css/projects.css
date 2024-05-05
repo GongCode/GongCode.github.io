@@ -2301,10 +2301,18 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
-		@media screen and (max-width: 650px) {
+		@media screen and (max-width: 736px) {
 
 			ul.actions li {
 				padding: 0 0 0 0.8em;
+			}
+
+		}
+
+		@media screen and (max-width: 560px) {
+
+			ul.actions li {
+				padding: 0 0 0 0.38em;
 			}
 
 		}
@@ -4350,6 +4358,9 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
 	.inner p:not(.test){
 		font-size: 1.02em;
+		padding-right: 1.8em;
+		padding-left: 2em;
+		margin: 0 0 1.25em 0;
 	}
 
 }
@@ -4358,8 +4369,9 @@ input, select, textarea {
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
 		padding-right: 0.55em;
-		padding-left: 1.95em;
+		padding-left: 1.65em;
 		font-size: 1em;
+		margin: 0 0 1.2em 0;
 	}
 
 }
