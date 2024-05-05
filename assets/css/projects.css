@@ -4318,7 +4318,7 @@ input, select, textarea {
 
 @media screen and (max-width: 1280px) {
 	.inner:hover > .tt span {
-		padding-right: 3.8em;
+		padding-right: 3.9em;
 
 	}
 
@@ -4327,7 +4327,7 @@ input, select, textarea {
 
 @media screen and (max-width: 980px) {
 	.inner:hover > .tt span {
-		padding-right: 3.5em;
+		padding-right: 3.65em;
 
 	}
 
