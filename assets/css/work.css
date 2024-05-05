@@ -4042,7 +4042,7 @@ input, select, textarea {
 
 @media screen and (max-width: 560px) {
 	.tt1 {
-		margin-left: -0.4em;
+		margin-left: -0.5em;
 	}
 }
 
@@ -4106,7 +4106,7 @@ input, select, textarea {
 		padding-left: 0em;
 		padding-right: 0.7em;
 		width: 83%;
-		left: 3.6em;
+		left: 3.65em;
 	}
 }
 
