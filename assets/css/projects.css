@@ -4255,7 +4255,7 @@ input, select, textarea {
 	/* margin-right: 75%; */
 	padding: 0.35em;
 	/* padding-left: 0.3em; */
-	padding-right: 1.52em;
+	padding-right: 1.58em;
 	padding-left: 1.03em;
 	margin-left: 0.271em;
 	transition: all 0.4s ease-in-out;
@@ -4318,7 +4318,7 @@ input, select, textarea {
 
 @media screen and (max-width: 1280px) {
 	.inner:hover > .tt span {
-		padding-right: 3.83em;
+		padding-right: 3.82em;
 
 	}
 
