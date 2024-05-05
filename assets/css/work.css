@@ -4042,7 +4042,7 @@ input, select, textarea {
 
 @media screen and (max-width: 560px) {
 	.tt1 {
-		margin-left: -0.16em;
+		margin-left: -0.2em;
 	}
 }
 
@@ -4105,8 +4105,8 @@ input, select, textarea {
 	.timeline-event-copy{
 		padding-left: 0em;
 		padding-right: 0.7em;
-		width: 83%;
-		left: 3.45em;
+		width: 82%;
+		left: 3.6em;
 	}
 }
 
