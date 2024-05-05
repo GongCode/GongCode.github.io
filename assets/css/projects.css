@@ -4370,7 +4370,7 @@ input, select, textarea {
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
 		padding-right: 0.55em;
-		padding-left: 1.89em;
+		padding-left: 1.88em;
 		font-size: 1em;
 		margin: 0 0 1.24em 0;
 	}
