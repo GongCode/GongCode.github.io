@@ -2312,7 +2312,7 @@ input, select, textarea {
 		@media screen and (max-width: 560px) {
 
 			ul.actions li {
-				padding: 0 0 0 0.58em;
+				padding: 0 0 0 0.62em;
 			}
 
 		}
@@ -3864,7 +3864,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#wrapper > * > .inner {
-					padding: 3em 0 1em 0 ;
+					padding: 3em 0 1.04em 0 ;
 					width: calc(100% - 3em);
 				}
 
@@ -3873,7 +3873,7 @@ input, select, textarea {
 			@media screen and (max-width: 520px) {
 
 				#wrapper > * > .inner {
-					padding: 2.6em 0 0.9em 0 ;
+					padding: 2.6em 0 0.91em 0 ;
 					width: calc(100% - 2.4em);
 				}
 
@@ -4276,7 +4276,7 @@ input, select, textarea {
 	.tt span {
 		font-weight: 700;
 		font-size: 1.44em;
-		margin-left: 0.26em;
+		margin-left: 0.265em;
 		transition: all 0.4s ease-in-out;
 
 	}
@@ -4370,9 +4370,9 @@ input, select, textarea {
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
 		padding-right: 0.55em;
-		padding-left: 1.84em;
+		padding-left: 1.89em;
 		font-size: 1em;
-		margin: 0 0 1.23em 0;
+		margin: 0 0 1.24em 0;
 	}
 
 }
