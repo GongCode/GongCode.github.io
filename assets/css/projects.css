@@ -4313,12 +4313,12 @@ input, select, textarea {
 	-webkit-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 	-ms-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
-	padding-right: 7.2em;
+	padding-right: 4.3em;
 }
 
 @media screen and (max-width: 1280px) {
 	.inner:hover > .tt span {
-		padding-right: 5.7em;
+		padding-right: 4em;
 
 	}
 
@@ -4327,27 +4327,27 @@ input, select, textarea {
 
 @media screen and (max-width: 980px) {
 	.inner:hover > .tt span {
-		padding-right: 5em;
+		padding-right: 3.6em;
 
 	}
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 560px) {
 	.inner:hover > .tt span {
-		padding-right: 3.3em;
+		padding-right: 2.32em;
 
 	}
 
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
 	.inner:hover > .tt span {
 		padding-right: 2.2em;
 
 	}
 
-}
+} */
 
 
 
