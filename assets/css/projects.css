@@ -2312,7 +2312,7 @@ input, select, textarea {
 		@media screen and (max-width: 560px) {
 
 			ul.actions li {
-				padding: 0 0 0 0.63em;
+				padding: 0 0 0 0.46em;
 			}
 
 		}
@@ -4276,14 +4276,16 @@ input, select, textarea {
 	.tt span {
 		font-weight: 700;
 		font-size: 1.44em;
-		margin-left: 0.265em;
+		margin-left: 0.27em;
+		padding-right: 1.23em;
+		padding-left: 0.83em;
 		transition: all 0.4s ease-in-out;
 
 	}
 
 }
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
 	.tt span {
 		padding-right: 1.3em;
 		padding-left: 1em;
@@ -4292,7 +4294,7 @@ input, select, textarea {
 
 	}
 
-}
+} */
 
 /* .tt span:hover {
 	background-color: white;
@@ -4369,10 +4371,10 @@ input, select, textarea {
 
 @media screen and (max-width: 560px) {
 	.inner p:not(.test){
-		padding-right: 0.55em;
-		padding-left: 1.88em;
+		padding-right: 0.56em;
+		padding-left: 1.75em;
 		font-size: 1em;
-		margin: 0 0 1.24em 0;
+		margin: 0 0 1.23em 0;
 	}
 
 }
