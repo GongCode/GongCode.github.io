@@ -4064,8 +4064,8 @@ input, select, textarea {
     /* padding-left: 7em;
     padding-right: 7em; */
     text-align: center;
-    padding: 1.08em;
-	padding-bottom: 1.17em;
+    padding: 1.07em;
+	padding-bottom: 1.18em;
     margin-left: 2.5em;
     margin-right: 2.5em;
     padding-right: 2.5em;
@@ -4081,7 +4081,7 @@ input, select, textarea {
 		margin-right: 1.3em;
 		padding-right: 2.1em;
 		padding-left: 2.1em;
-		padding: 1.07em;
+		padding: 1.06em;
 		padding-bottom: 1.12em;
 	}
 }
@@ -4094,7 +4094,7 @@ input, select, textarea {
 		margin-right: 0.36em; */
 		padding-right: 0.5em;
 		padding-left: 0.5em;
-		padding: 1.055em;
+		padding: 1.04em;
 		padding-bottom: 1.1em;
 	}
 }
